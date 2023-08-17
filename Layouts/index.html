@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <link rel="stylesheet" href="style_1.css">
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/superhelio" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pixel12x10" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/devin-chavez-font" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <div id="wrappy">
+        <img src="uncletony.png">
+        
+
+        <h1><b>Tony Tools</b></h1>
+        </div>
+       
+
+    </header>
+
+    <div class="contenitore">
+
+        <section>
+            <h2>Defimons Battle Calculator.</h2>
+            <p>This tool allows you to calculate your position of advantage/disadvantage of your Mon relative to any enemy Mon. It utilizes strength and weakness charts for both primary and secondary type. It converts the position to a scale from <b>-4</b> (massive disadvantage) to <b>4</b> (massive advantage) with <b>0</b> being equal.</p>
+            <P>It also calculates the best possible match against the enemy Mon, which has advantage in both types.</P>
+            
+        <div id="mymon" class="div_hover">
+            <h3>Your MON</h3>
+            <select id="select" class="dropdown">
+
+                <option selected>Land</option>
+                <option>Water</option>
+                <option>Air</option>
+
+              </select> <br>
+
+
+           
+              <select id="select2" class="dropdown">
+
+                <option selected>Apocalyptic</option>
+                <option>Fire</option>
+                <option>Ice</option>
+                <option>Electric</option>
+                <option>Poison</option>
+                <option>Heavy</option>
+                <option>Normal</option>
+
+              </select> <br>
+        </div>
+
+        <div id="opponentmon" class="div_hover">
+
+            <h3>Enemy MON</h3>
+            <select id="selectEnemy" class="dropdown">
+
+                <option selected>Land</option>
+                <option>Water</option>
+                <option>Air</option>
+
+              </select> <br>
+
+
+              <select id="selectEnemy2" class="dropdown">
+
+                <option selected>Apocalyptic</option>
+                <option>Fire</option>
+                <option>Ice</option>
+                <option>Electric</option>
+                <option>Poison</option>
+                <option>Heavy</option>
+                <option>Normal</option>
+
+              </select> <br>
+        </div>
+        <div class="bottone">
+        <button type="button" onclick="report()" id="MONcalculator">SUBMIT</button>
+        </div>
+        <div class="rep">
+            <img id="imgid" src="/img/00.PNG">
+            <p id="reportbattle">Select primary and secondary types for your Mon and for the enemy Mon. Then click 'submit' to generate a battle report.</p> <p id="best"></p>
+       
+      
+        </div>
+
+         </section>
+
+
+        <aside>
+
+            <h3>Tools List</h3>
+            <ol>
+                <li>Battle Tool</li><br>
+                <li>Farming Tool</li><br>
+                <li>Fishing Tool</li><br>
+                <li>Skins Tool</li><br>
+                
+            </ol>
+        </aside>
+
+
+        
+
+    </div>
+    
+    <footer>
+        <p>© Yorokobi Chamber of Commerce</p>
+
+    </footer>
+
+
+
+
+
+<script src="layout.js"></script>
+    
+</body>
+</html>

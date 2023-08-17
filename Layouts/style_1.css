@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    font-family: 'superhelio _regular', sans-serif;
+    font-size: 22px;
+
+    
+}
+
+button {
+    font-family: 'superhelio _regular', sans-serif;
+    font-size: 22px;
+}
+
+
+#mymon {
+    background-color: rgb(169, 175, 180);
+    border: 2px solid;
+    width: 46%;
+    padding: 1%;
+    float: left;
+}
+
+#opponentmon {
+    background-color: rgb(169, 175, 180);
+    border: 2px solid;
+    width: 46%;
+    padding: 1%;
+    float: right;
+    
+
+}
+
+#MONcalculator {
+    margin: 6px;
+}
+
+#mymon:hover {
+
+    background-color: rgb(193, 202, 209);
+}
+
+#opponentmon:hover {
+    background-color:  rgb(193, 202, 209);
+}
+
+
+
+
+.dropdown {
+    width: 140px;
+    height: 40px;
+    font-family: 'superhelio _regular', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#wrappy {
+
+    margin: 0 auto;
+    max-width: 260px;
+    
+}
+
+h2 {
+
+    font-size: 30px;
+}
+
+
+img {
+
+    float: left;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 30px;
+    
+}
+
+#imgid {
+    height: auto;
+    width: 420px;
+    float: left;
+    margin: 10px;
+}
+
+header {
+    background-color: rgb(85, 95, 104);
+    padding: 18px;
+    text-align: center;
+   
+   
+    font-family: 'Devin Chavez Font', sans-serif;
+    
+    color:rgb(227, 236, 245);
+    font-size: 20px;
+}
+
+
+.contenitore  {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+section { 
+          float: left;
+          width: 72%;
+          padding: 8px;
+          background-color: rgba(240, 240, 240, 0.952);
+          
+          min-height: 700px;
+        
+
+}
+
+aside {
+    
+    float: right;
+    width: 16%;
+    text-align: left;
+    padding: 5px;
+
+    margin-right: 2%;
+
+
+
+
+    
+
+}
+
+footer {
+    background-color: rgb(64, 74, 82);
+    padding: 20px;
+    color: rgb(206, 214, 223);
+    text-align: center;
+    clear: both;
+
+}
+
+.bottone {
+
+    background-color: rgb(191, 198, 204);
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:  rgb(169, 175, 180);
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    }
